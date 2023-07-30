@@ -1,0 +1,260 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+/* fonts */
+
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+
+.socials{
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+
+.navbarr{
+    display: flex;
+}
+
+.logo{
+    width: 95px;
+    height: 95px;
+    margin-top: 20px; 
+    margin-left: 60px;
+}
+
+.title{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.heading1{
+    margin-bottom: 10px;
+    color: red;
+}
+
+.heading2{
+    color:green;
+}
+
+.navitems{
+    list-style-type: none;
+    display: flex;
+    font-size: 120%;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navitems>li{
+    margin-right: 20px;
+    color: brown;
+    cursor: pointer;
+}
+li>a{
+    text-decoration: none;
+    color: brown;
+}
+
+.socialdiv{
+    margin-left: 300px;
+}
+.itemsdiv{
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.bluebar{
+    background-color: #007FFF;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.bluelist{
+    display: flex;
+}
+
+ul>a{
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 110%;
+    color: white;
+    margin:13px 15px 0 0;
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 110%;
+    color: white;
+    margin:13px 15px 0 0;
+    cursor: pointer;
+}
+/* dropdown */
+.arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0 0 2px 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* frame */
+  .frame{
+    width: 100vw;
+    height: 80.5vh;
+  }
+  
+
+  .sliderback{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -450px;
+    opacity: 40%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.rightone{
+    margin-left: 1852px;
+}
+/* about and particular */
+
+.aboutandparticular{
+    display: flex;
+}
+
+.bluebar2{
+    width: 25vw;
+    height: 50px;
+    background-color: #87CEEB;
+    margin: 50px 0 0 250px;
+    border-radius: 5px;
+}
+
+.parag{
+    text-align: justify;
+    width: 500px;
+    color: black;
+    margin: 20px 0 0 240px;
+
+}
+
+.viewmore{
+    width: 120px;
+    height: 40px;
+    border: 3px solid #87CEEB;
+    border-radius: 6px;
+    margin: 5px 0 0 620px;
+}
+
+.particulars{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0 0 0;
+    /* background-color: red; */
+    width: 45vw;
+}
+
+.partimg{
+    width: 77.77px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.boxes{
+    margin: 0 30px 0 0;
+    /* background-color: blue; */
+}
+a>h3{
+    text-align: center;
+    width: 130px;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+/* images and videos gallery */
+.imgvid{
+    display: flex;
+    background-image: linear-gradient(28deg, #FAACA8 0%, #DDD6F3 62%);
+    margin: 20px 0 0 0;
+}
+.twoimages{
+    display: flex;
+}
+
+/* important links */
+.important{
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+    /* background-color: #FAFAEB; */
+}
+
+hr{
+    margin: 10px auto 0 auto;
+    height: 2px;
+    border: 0;
+    background: #333;
+background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+.important2{
+    margin: 0 auto 0 auto;
+}
+
+.impimg{
+    width: 250px;
+    height: 80px;
+    margin: 20px 10px 0 0;
+}
+
+/* scroll */
+.contactus{
+    background-color: blue;
+    width: 100vw;
+}
+
+.fa{
+    margin: 10px 0 0 660px;
+}
